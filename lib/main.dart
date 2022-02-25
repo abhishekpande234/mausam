@@ -37,7 +37,7 @@ class _MausamState extends State<Mausam> {
     try{
       var paramsLoc = {
         "q": input,
-        'appid' :'2a283b41ef7ff12f85ef0bc83a97c96c'
+        'appid' :'your id'
       };
       var fetchSearchUrl = Uri.https(locationApiUrl, locationApiUrlTwo, paramsLoc);
       var res = await http.get(fetchSearchUrl);
